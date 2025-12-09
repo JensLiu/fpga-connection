@@ -1,0 +1,17 @@
+{
+    "verilog.ctags.path": "ctags",
+    "verilog.linting.linter": "verilator",
+    "verilog.linting.verilator.includePath": [
+        "libs/wbuart32/rtl",
+        "rtl"
+    ],
+    // Use the filelist for linting so package ordering is guaranteed.
+    // This points Verilator to the ordered source list which pre-declares
+    // packages before files that import them.
+    "verilog.linting.verilator.arguments": "-f filelist_lint.f --timing",
+    "verilog.formatting.veribleVerilogFormatter.arguments": "--indentation_spaces 4",
+    "verilog.formatting.verilogHDL.formatter": "verible-verilog-format",
+    "verilog.languageServer.veribleVerilogLs.enabled": true,
+    "verilog.linting.verilator.runAtFileLocation": false,
+    // "verilog.languageServer.veribleVerilogLs.enabled": true,
+}
