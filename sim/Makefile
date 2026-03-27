@@ -12,6 +12,10 @@ LIB_CPP_DIR = ../libs/wbuart32/cpp
 # Explicitly list Verilog sources. 
 # top.sv instantiates rxuart, so we need rxuart.v
 VERILOG_SOURCES = $(RTL_DIR)/top.sv \
+	$(RTL_DIR)/iter_if.sv \
+	$(RTL_DIR)/uart_top.sv \
+	$(RTL_DIR)/repeat_source_iter.sv \
+	$(RTL_DIR)/display_sink_iter.sv \
 	$(LIB_RTL_DIR)/axiluart.v \
 	$(LIB_RTL_DIR)/rxuart.v \
 	$(LIB_RTL_DIR)/txuart.v \
@@ -29,9 +33,12 @@ CPP_SOURCES = sim.cpp $(LIB_CPP_DIR)/uartsim.cpp
 # -j 0: Use all cores
 # -Wall: Enable warnings
 VERILATOR_FLAGS = --cc --exe --build -j 0 -Wall --trace
+VERILATOR_FLAGS += --top-module top
+VERILATOR_FLAGS += -Wno-UNUSEDSIGNAL
 
 # Include paths for Verilog (if needed)
 VERILATOR_FLAGS += -I$(LIB_RTL_DIR)
+VERILATOR_FLAGS += -I$(RTL_DIR)
 
 # Include paths for C++ compiler (to find uartsim.h)
 # We pass this via -CFLAGS to the underlying C++ compiler
