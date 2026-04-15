@@ -6,7 +6,7 @@ interface sdr_ctrl_protocol_if
 
   logic valid;
   logic ready;
-  sdr_protocol_t data;
+  pkg_sdr_ctrl_protocol::protocol_t data;
 
   modport master(
       output valid,

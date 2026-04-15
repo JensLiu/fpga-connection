@@ -1,27 +1,25 @@
 package pkg_sdr_ctrl_protocol;
-  parameter int unsigned PAYLOAD_SIZE = 64;
-  parameter int unsigned PAYLOAD_SIZE_BITS = $clog2(PAYLOAD_SIZE);
-  parameter int unsigned PAYLOAD_SIZE_START_BIT = 5;
-  parameter int unsigned PAYLOAD_DATA_START_BIT = PAYLOAD_SIZE_START_BIT + PAYLOAD_SIZE_BITS;
-  parameter int unsigned PAYLOAD_DATA_WIDTH = PAYLOAD_SIZE_BITS + PAYLOAD_SIZE;
-  parameter int unsigned CONTROL_PAYLOAD_PADDING_WIDTH = PAYLOAD_DATA_WIDTH - 2; // < NOTE: should be updated to reflect fields in controlflow
-  typedef struct {
-    // logic [UUID_BITS-1:0] uuid;
-    logic is_control;
-    logic is_ack;
-    logic sop;
-    logic eop;
-    union packed {
-      struct packed {
-        logic [PAYLOAD_SIZE_BITS-1:0] payload_size;
-        logic [PAYLOAD_SIZE-1:0] payload_data;
-      } data;
-      struct packed {
-        logic sdr_tx;
-        logic sdr_rx;
-        // logic [?-1:0] sdr_tx_buf_rem;
-        logic [CONTROL_PAYLOAD_PADDING_WIDTH-1:0] padding;
-      } control;
-    } payload;
+
+  // Maximum payload bytes per packet. Control packets carry 0. DATA packets
+  // carry up to this many bytes of samples.
+  parameter int unsigned MAX_PAYLOAD_BYTES = 64;
+
+  typedef enum logic [7:0] {
+    OP_POLL    = 8'h01,  // FPGA → SDR : are you ready?
+    OP_READY   = 8'h02,  // SDR  → FPGA: ready, enter IDLE
+    OP_REQ_TX  = 8'h03,  // FPGA → SDR : switch to TX mode
+    OP_ACK_TX  = 8'h04,  // SDR  → FPGA: TX mode entered
+    OP_END_TX  = 8'h05,  // FPGA → SDR : end of TX burst, return to RX
+    OP_ACK_RX  = 8'h06,  // SDR  → FPGA: RX mode resumed
+    OP_DATA    = 8'h10,  // either      : sample payload (len > 0)
+    OP_PAUSE   = 8'h20,  // either      : stop sending DATA (buffer high-water)
+    OP_RESUME  = 8'h21   // either      : resume sending DATA (buffer low-water)
+  } opcode_t;
+
+  typedef struct packed {
+    opcode_t                          opcode;
+    logic [7:0]                       len;      // payload length in bytes
+    logic [MAX_PAYLOAD_BYTES*8-1:0]   payload;  // valid for [len-1:0] bytes
   } protocol_t;
+
 endpackage
