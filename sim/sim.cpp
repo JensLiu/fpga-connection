@@ -9,13 +9,17 @@
 #include <verilated.h>
 
 int main(int argc, char **argv) {
+  // Line-buffer stdout so $display output is flushed immediately even when
+  // the process is redirected to a file and later killed.
+  setvbuf(stdout, nullptr, _IOLBF, 0);
+
   Verilated::commandArgs(argc, argv);
-  // Instantiate the top module
   auto top = std::make_unique<Vtop>();
 
-  // Instantiate the UART simulator
-  // Port 0 means it will use stdin/stdout
-  auto uart = std::make_unique<UARTSIM>(12345);
+  int port = (argc > 1) ? std::atoi(argv[1]) : 12345;
+  std::cout << "[FPGA sim] port=" << port
+            << "  pass +fpga_id=N to tag output\n";
+  auto uart = std::make_unique<UARTSIM>(port);
   // Configure UART simulator to match the RTL (868 divisor for 115200 baud @
   // 100MHz)
   uart->setup(868);

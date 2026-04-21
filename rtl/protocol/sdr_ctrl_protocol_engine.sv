@@ -23,6 +23,10 @@ module sdr_ctrl_protocol_engine
     sdr_ctrl_protocol_if.slave   rsp    // SDR → FPGA
 );
 
+  if (MAX_PAYLOAD_BYTES > 255) begin : gen_payload_size_check
+    $error("MAX_PAYLOAD_BYTES=%0d exceeds 8-bit len field", MAX_PAYLOAD_BYTES);
+  end
+
   typedef enum logic [2:0] {
     S_UNINIT,         // waiting for SDR to boot
     S_IDLE,           // SDR in RX, no active core request
@@ -37,16 +41,14 @@ module sdr_ctrl_protocol_engine
 
   logic [$clog2(POLL_PERIOD)-1:0] poll_cnt, poll_cnt_n;
 
-  // Incoming packet decoded signals
-  logic    rsp_fire = rsp.valid && rsp.ready;
-  opcode_t rsp_op   = rsp.data.opcode;
-
-  // Outgoing packet handshake
-  logic req_fire = req.valid && req.ready;
-
-  // Core channel handshake fires
-  logic core_wr_fire = core.wr_valid && core.wr_ready;
-  logic core_rd_fire = core.rd_valid && core.rd_ready;
+  // Handshake fire signals — must be assign, not logic initialisation
+  logic    rsp_fire, req_fire, core_wr_fire, core_rd_fire;
+  opcode_t rsp_op;
+  assign rsp_fire    = rsp.valid  && rsp.ready;
+  assign rsp_op      = rsp.data.opcode;
+  assign req_fire    = req.valid  && req.ready;
+  assign core_wr_fire = core.wr_valid && core.wr_ready;
+  assign core_rd_fire = core.rd_valid && core.rd_ready;
 
   // Build a zero-payload control packet
   function automatic protocol_t ctrl_pkt(input opcode_t op);
@@ -77,7 +79,7 @@ module sdr_ctrl_protocol_engine
         end else if (poll_cnt == 0) begin
           req.valid  = 1;
           req.data   = ctrl_pkt(OP_POLL);
-          poll_cnt_n = POLL_PERIOD - 1;
+          poll_cnt_n = ($clog2(POLL_PERIOD))'(POLL_PERIOD - 1);
         end else begin
           poll_cnt_n = poll_cnt - 1;
         end
@@ -117,6 +119,9 @@ module sdr_ctrl_protocol_engine
           state_n = S_TX_PAUSED;
         end else if (core.wr_valid) begin
           // Forward one word from core as a DATA packet
+          assert (core.wr_len <= 8'(MAX_PAYLOAD_BYTES))
+            else $fatal(1, "core.wr_len=%0d exceeds MAX_PAYLOAD_BYTES=%0d",
+                        core.wr_len, MAX_PAYLOAD_BYTES);
           req.valid        = 1;
           req.data.opcode  = OP_DATA;
           req.data.len     = {{(8-$bits(core.wr_len)){1'b0}}, core.wr_len};

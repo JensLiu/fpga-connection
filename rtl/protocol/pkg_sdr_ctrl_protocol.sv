@@ -1,7 +1,9 @@
+`timescale 1ns / 1ps
 package pkg_sdr_ctrl_protocol;
 
   // Maximum payload bytes per packet. Control packets carry 0. DATA packets
   // carry up to this many bytes of samples.
+  // Must be <= 255 because len is an 8-bit field on the wire.
   parameter int unsigned MAX_PAYLOAD_BYTES = 64;
 
   typedef enum logic [7:0] {

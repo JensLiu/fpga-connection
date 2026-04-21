@@ -20,6 +20,8 @@ module sdr_ctrl_protocol_byte_serialiser
     iter_if.master               iter
 );
 
+  localparam int unsigned IterElemSize = 8;
+
   typedef enum logic [1:0] {
     S_IDLE,     // waiting for a packet
     S_OPCODE,   // emitting opcode byte
@@ -32,7 +34,8 @@ module sdr_ctrl_protocol_byte_serialiser
   logic [7:0] byte_idx, byte_idx_n;
   logic [7:0] rem,      rem_n;
 
-  logic iter_fire = iter.valid && iter.ready;
+  logic iter_fire;
+  assign iter_fire = iter.valid && iter.ready;
 
   always_comb begin
     state_n    = state;
@@ -72,7 +75,7 @@ module sdr_ctrl_protocol_byte_serialiser
 
       S_PAYLOAD: begin
         iter.valid = 1;
-        iter.data  = pkt.payload[byte_idx * ITER_ELEM_SIZE +: ITER_ELEM_SIZE];
+        iter.data  = pkt.payload[byte_idx * IterElemSize +: IterElemSize];
         if (iter_fire) begin
           byte_idx_n = byte_idx + 1;
           rem_n      = rem - 1;
