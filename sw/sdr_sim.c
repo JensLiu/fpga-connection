@@ -4,130 +4,93 @@
 #include <string.h>
 #include <stdint.h>
 #include <stdbool.h>
-#include <time.h>
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
 #include <sys/select.h>
 #include "protocol.h"
-
-// Simulated TX buffer limits
-#define TX_BUF_CAPACITY  512
-#define TX_HIGH_WATER    384  // 75% — send PAUSE
-#define TX_LOW_WATER     128  // 25% — send RESUME
+#include "sdr_fsm.h"
 
 // Ticks (1 ms each) between fake RX sample emissions in standalone mode
 #define RX_EMIT_TICKS  5
 
-typedef enum { SDR_PENDING, SDR_RX, SDR_TX } sdr_state_t;
+// --- server context (owns all socket fds) ---
 
-static const char *state_name(sdr_state_t s) {
-    switch (s) {
-    case SDR_PENDING: return "PENDING";
-    case SDR_RX:      return "RX";
-    case SDR_TX:      return "TX";
-    }
-    return "?";
-}
+typedef struct {
+    int                fpga_fd;
+    int                ota_fd;    // -1 in standalone
+    struct sockaddr_in ota_peer;
+    const char        *label;
+} server_ctx_t;
 
-static char lbl[16];
+// --- transport helpers ---
 
-// --- FPGA link (TCP) ---
-
-static int write_all(int sock, const void *buf, size_t n) {
+static int write_all(int fd, const void *buf, size_t n) {
     const uint8_t *p = buf;
     while (n > 0) {
-        ssize_t w = write(sock, p, n);
+        ssize_t w = write(fd, p, n);
         if (w <= 0) return -1;
         p += w; n -= w;
     }
     return 0;
 }
 
-static int read_all(int sock, void *buf, size_t n) {
+static int read_all(int fd, void *buf, size_t n) {
     uint8_t *p = buf;
     while (n > 0) {
-        ssize_t r = read(sock, p, n);
+        ssize_t r = read(fd, p, n);
         if (r <= 0) return -1;
         p += r; n -= r;
     }
     return 0;
 }
 
-static int fpga_write_pkt(int fd, const packet_t *pkt) {
+static int fpga_write_pkt(int fd, const char *label, const packet_t *pkt) {
     uint8_t hdr[2] = { (uint8_t)pkt->opcode, pkt->len };
     if (write_all(fd, hdr, 2) < 0) return -1;
     if (pkt->len > 0 && write_all(fd, pkt->payload, pkt->len) < 0) return -1;
-    printf("%s [fpga tx] %-8s len=%d\n", lbl, opcode_name(pkt->opcode), pkt->len);
+    printf("%s [fpga tx] %-8s len=%d\n", label, opcode_name(pkt->opcode), pkt->len);
     return 0;
 }
 
-// Blocking read — call only after select confirms data is available
-static int fpga_read_pkt(int fd, packet_t *pkt) {
+static int fpga_read_pkt(int fd, const char *label, packet_t *pkt) {
     uint8_t hdr[2];
     if (read_all(fd, hdr, 2) < 0) return -1;
     pkt->opcode = (opcode_t)hdr[0];
     pkt->len    = hdr[1];
     if (pkt->len > MAX_PAYLOAD_BYTES) {
-        fprintf(stderr, "%s oversized packet len=%d\n", lbl, pkt->len);
+        fprintf(stderr, "%s oversized packet len=%d\n", label, pkt->len);
         return -1;
     }
     if (pkt->len > 0 && read_all(fd, pkt->payload, pkt->len) < 0) return -1;
-    printf("%s [fpga rx] %-8s len=%d\n", lbl, opcode_name(pkt->opcode), pkt->len);
+    printf("%s [fpga rx] %-8s len=%d\n", label, opcode_name(pkt->opcode), pkt->len);
     return 0;
 }
 
-static int tcp_connect(const char *host, int port) {
-    int s = socket(AF_INET, SOCK_STREAM, 0);
-    if (s < 0) { perror("socket"); exit(1); }
-    struct sockaddr_in addr = {
-        .sin_family = AF_INET,
-        .sin_port   = htons((uint16_t)port),
-    };
-    inet_pton(AF_INET, host, &addr.sin_addr);
-    while (connect(s, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
-        printf("%s retrying connect to %s:%d...\n", lbl, host, port);
-        sleep(1);
-    }
-    return s;
+// --- FSM callbacks ---
+
+static int cb_send_to_fpga(void *ctx, const packet_t *pkt) {
+    server_ctx_t *s = ctx;
+    return fpga_write_pkt(s->fpga_fd, s->label, pkt);
 }
 
-// --- OTA link (UDP, symmetric) ---
-
-static int                ota_fd   = -1;
-static struct sockaddr_in ota_peer;
-
-static void ota_setup(int my_port, int peer_port) {
-    ota_fd = socket(AF_INET, SOCK_DGRAM, 0);
-    if (ota_fd < 0) { perror("ota socket"); exit(1); }
-
-    struct sockaddr_in my_addr = {
-        .sin_family      = AF_INET,
-        .sin_port        = htons((uint16_t)my_port),
-        .sin_addr.s_addr = INADDR_ANY,
-    };
-    if (bind(ota_fd, (struct sockaddr *)&my_addr, sizeof(my_addr)) < 0) {
-        perror("ota bind"); exit(1);
-    }
-
-    ota_peer.sin_family = AF_INET;
-    ota_peer.sin_port   = htons((uint16_t)peer_port);
-    inet_pton(AF_INET, "127.0.0.1", &ota_peer.sin_addr);
-}
-
-static int ota_send_pkt(const packet_t *pkt) {
+static int cb_forward_to_peer(void *ctx, const packet_t *pkt) {
+    server_ctx_t *s = ctx;
     uint8_t buf[2 + MAX_PAYLOAD_BYTES];
     buf[0] = (uint8_t)pkt->opcode;
     buf[1] = pkt->len;
     if (pkt->len > 0) memcpy(buf + 2, pkt->payload, pkt->len);
-    if (sendto(ota_fd, buf, (size_t)(2 + pkt->len), 0,
-               (struct sockaddr *)&ota_peer, sizeof(ota_peer)) < 0) return -1;
-    printf("%s [ota tx] %-8s len=%d\n", lbl, opcode_name(pkt->opcode), pkt->len);
+    if (sendto(s->ota_fd, buf, (size_t)(2 + pkt->len), 0,
+               (struct sockaddr *)&s->ota_peer, sizeof(s->ota_peer)) < 0)
+        return -1;
+    printf("%s [ota tx] %-8s len=%d\n", s->label, opcode_name(pkt->opcode), pkt->len);
     return 0;
 }
 
-// Non-blocking — returns 0 if packet read, 1 if nothing available, -1 on error
-static int ota_recv_pkt_nb(packet_t *pkt) {
+// --- OTA receive (non-blocking) ---
+// Returns 0 if a packet was placed in *pkt, 1 if nothing available, -1 on error.
+
+static int ota_recv_nb(int ota_fd, const char *label, packet_t *pkt) {
     fd_set rfds;
     FD_ZERO(&rfds);
     FD_SET(ota_fd, &rfds);
@@ -141,14 +104,52 @@ static int ota_recv_pkt_nb(packet_t *pkt) {
     pkt->len    = buf[1];
     if (pkt->len > MAX_PAYLOAD_BYTES) return -1;
     if (pkt->len > 0) memcpy(pkt->payload, buf + 2, pkt->len);
-    printf("%s [ota rx] %-8s len=%d\n", lbl, opcode_name(pkt->opcode), pkt->len);
+    printf("%s [ota rx] %-8s len=%d\n", label, opcode_name(pkt->opcode), pkt->len);
     return 0;
+}
+
+// --- TCP connect with retry ---
+
+static int tcp_connect(const char *label, const char *host, int port) {
+    int s = socket(AF_INET, SOCK_STREAM, 0);
+    if (s < 0) { perror("socket"); exit(1); }
+    struct sockaddr_in addr = {
+        .sin_family = AF_INET,
+        .sin_port   = htons((uint16_t)port),
+    };
+    inet_pton(AF_INET, host, &addr.sin_addr);
+    while (connect(s, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
+        printf("%s retrying connect to %s:%d...\n", label, host, port);
+        sleep(1);
+    }
+    return s;
+}
+
+// --- UDP OTA socket setup ---
+
+static int ota_setup(const char *label, int my_port, int peer_port,
+                     struct sockaddr_in *peer_addr) {
+    int fd = socket(AF_INET, SOCK_DGRAM, 0);
+    if (fd < 0) { perror("ota socket"); exit(1); }
+    struct sockaddr_in my_addr = {
+        .sin_family      = AF_INET,
+        .sin_port        = htons((uint16_t)my_port),
+        .sin_addr.s_addr = INADDR_ANY,
+    };
+    if (bind(fd, (struct sockaddr *)&my_addr, sizeof(my_addr)) < 0) {
+        perror("ota bind"); exit(1);
+    }
+    peer_addr->sin_family = AF_INET;
+    peer_addr->sin_port   = htons((uint16_t)peer_port);
+    inet_pton(AF_INET, "127.0.0.1", &peer_addr->sin_addr);
+    printf("%s OTA link: my_port=%d peer_port=%d\n", label, my_port, peer_port);
+    return fd;
 }
 
 // --- main ---
 
 int main(int argc, char **argv) {
-    setvbuf(stdout, NULL, _IOLBF, 0);  // flush on every newline even when piped
+    setvbuf(stdout, NULL, _IOLBF, 0);
 
     if (argc < 3) {
         fprintf(stderr,
@@ -161,132 +162,80 @@ int main(int argc, char **argv) {
 
     int  fpga_port  = atoi(argv[1]);
     bool standalone = (strcmp(argv[2], "standalone") == 0);
-    snprintf(lbl, sizeof(lbl), standalone ? "[SDR]" : "[SDR@%d]", atoi(argv[2]));
 
-    printf("%s connecting to FPGA at 127.0.0.1:%d...\n", lbl, fpga_port);
-    int fd = tcp_connect("127.0.0.1", fpga_port);
-    printf("%s FPGA link up\n", lbl);
+    char label[16];
+    snprintf(label, sizeof(label), standalone ? "[SDR]" : "[SDR@%d]", atoi(argv[2]));
+
+    printf("%s connecting to FPGA at 127.0.0.1:%d...\n", label, fpga_port);
+    int fpga_fd = tcp_connect(label, "127.0.0.1", fpga_port);
+    printf("%s FPGA link up\n", label);
+
+    server_ctx_t srv = {
+        .fpga_fd = fpga_fd,
+        .ota_fd  = -1,
+        .label   = label,
+    };
 
     if (!standalone) {
         if (argc < 4) {
             fprintf(stderr, "OTA mode requires both my_ota_port and peer_ota_port\n");
             return 1;
         }
-        int my_port   = atoi(argv[2]);
-        int peer_port = atoi(argv[3]);
-        ota_setup(my_port, peer_port);
-        printf("%s OTA link: my_port=%d peer_port=%d\n", lbl, my_port, peer_port);
+        srv.ota_fd = ota_setup(label, atoi(argv[2]), atoi(argv[3]), &srv.ota_peer);
     }
 
-    sdr_state_t state    = SDR_PENDING;
-    int  tx_buf_used     = 0;
-    bool paused          = false;
-    int  rx_tick         = 0;
-    uint8_t rx_counter   = 0;
+    sdr_fsm_ops_t ops = {
+        .send_to_fpga    = cb_send_to_fpga,
+        .forward_to_peer = standalone ? NULL : cb_forward_to_peer,
+    };
+    sdr_fsm_t fsm;
+    sdr_fsm_init(&fsm, &ops, &srv, label);
+
+    int     rx_tick    = 0;
+    uint8_t rx_counter = 0;
 
     for (;;) {
-        // Wait up to 1 ms for activity on FPGA socket (and OTA when in RX)
         fd_set rfds;
         FD_ZERO(&rfds);
-        FD_SET(fd, &rfds);
-        int maxfd = fd;
+        FD_SET(fpga_fd, &rfds);
         struct timeval tv = {0, 1000};
-        select(maxfd + 1, &rfds, NULL, NULL, &tv);
+        select(fpga_fd + 1, &rfds, NULL, NULL, &tv);
 
-        // --- FPGA → SDR ---
-        if (FD_ISSET(fd, &rfds)) {
+        // FPGA → FSM
+        if (FD_ISSET(fpga_fd, &rfds)) {
             packet_t pkt;
-            if (fpga_read_pkt(fd, &pkt) < 0) {
-                fprintf(stderr, "%s FPGA link error\n", lbl);
+            if (fpga_read_pkt(fpga_fd, label, &pkt) < 0) {
+                fprintf(stderr, "%s FPGA link error\n", label);
                 break;
             }
-            sdr_state_t prev = state;
-
-            switch (state) {
-            case SDR_PENDING:
-                if (pkt.opcode == OP_POLL) {
-                    packet_t rsp = make_ctrl(OP_READY);
-                    if (fpga_write_pkt(fd, &rsp) < 0) goto done;
-                    state = SDR_RX;
-                }
-                break;
-
-            case SDR_RX:
-                if (pkt.opcode == OP_POLL) {
-                    packet_t rsp = make_ctrl(OP_READY);
-                    if (fpga_write_pkt(fd, &rsp) < 0) goto done;
-                } else if (pkt.opcode == OP_REQ_TX) {
-                    packet_t rsp = make_ctrl(OP_ACK_TX);
-                    if (fpga_write_pkt(fd, &rsp) < 0) goto done;
-                    state       = SDR_TX;
-                    tx_buf_used = 0;
-                    paused      = false;
-                }
-                break;
-
-            case SDR_TX:
-                if (pkt.opcode == OP_DATA) {
-                    tx_buf_used += pkt.len;
-                    printf("%s TX buf: %d/%d bytes\n", lbl, tx_buf_used, TX_BUF_CAPACITY);
-
-                    if (ota_fd >= 0 && ota_send_pkt(&pkt) < 0) goto done;
-
-                    if (!paused && tx_buf_used >= TX_HIGH_WATER) {
-                        packet_t rsp = make_ctrl(OP_PAUSE);
-                        if (fpga_write_pkt(fd, &rsp) < 0) goto done;
-                        paused = true;
-                    }
-                    if (tx_buf_used > TX_LOW_WATER)
-                        tx_buf_used /= 2;
-                    if (paused && tx_buf_used <= TX_LOW_WATER) {
-                        packet_t rsp = make_ctrl(OP_RESUME);
-                        if (fpga_write_pkt(fd, &rsp) < 0) goto done;
-                        paused = false;
-                    }
-                } else if (pkt.opcode == OP_END_TX) {
-                    tx_buf_used = 0;
-                    paused      = false;
-                    packet_t rsp = make_ctrl(OP_ACK_RX);
-                    if (fpga_write_pkt(fd, &rsp) < 0) goto done;
-                    state = SDR_RX;
-                }
-                break;
-            }
-
-            if (state != prev)
-                printf("%s %s -> %s\n", lbl, state_name(prev), state_name(state));
+            if (sdr_fsm_handle_fpga_pkt(&fsm, &pkt) < 0) break;
         }
 
-        // --- OTA → FPGA ---
-        // Only drain the UDP socket when in SDR_RX. While in SDR_TX the
-        // kernel buffers incoming datagrams; we leave them unread so nothing
-        // is dropped before we can forward them.
-        if (ota_fd >= 0 && state == SDR_RX) {
+        // OTA peer → FSM (FSM gates forwarding to FPGA; kernel buffers while in TX)
+        if (srv.ota_fd >= 0) {
             packet_t pkt;
-            int rc = ota_recv_pkt_nb(&pkt);
-            if (rc == 0 && pkt.opcode == OP_DATA) {
-                printf("%s forwarding OTA->FPGA %d bytes\n", lbl, pkt.len);
-                if (fpga_write_pkt(fd, &pkt) < 0) goto done;
+            int rc = ota_recv_nb(srv.ota_fd, label, &pkt);
+            if (rc == 0) {
+                if (sdr_fsm_handle_peer_pkt(&fsm, &pkt) < 0) break;
             } else if (rc < 0) {
-                fprintf(stderr, "%s OTA receive error\n", lbl);
+                fprintf(stderr, "%s OTA receive error\n", label);
                 break;
             }
         }
 
-        // --- Fake RX sample emission (standalone only) ---
-        if (standalone && state == SDR_RX && ++rx_tick >= RX_EMIT_TICKS) {
+        // Standalone: inject fake RX samples through the FSM every RX_EMIT_TICKS ms
+        if (standalone && ++rx_tick >= RX_EMIT_TICKS) {
             rx_tick = 0;
             packet_t data;
             data.opcode = OP_DATA;
             data.len    = MAX_PAYLOAD_BYTES;
             for (int i = 0; i < MAX_PAYLOAD_BYTES; i++)
                 data.payload[i] = rx_counter++;
-            if (fpga_write_pkt(fd, &data) < 0) break;
+            if (sdr_fsm_handle_peer_pkt(&fsm, &data) < 0) break;
         }
     }
 
-done:
-    close(fd);
-    if (ota_fd >= 0) close(ota_fd);
+    close(fpga_fd);
+    if (srv.ota_fd >= 0) close(srv.ota_fd);
     return 0;
 }
