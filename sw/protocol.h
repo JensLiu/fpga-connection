@@ -11,8 +11,9 @@ typedef enum __attribute__((packed)) {
   OP_REQ_TX = 0x03, // FPGA → SDR : switch to TX mode
   OP_ACK_TX = 0x04, // SDR  → FPGA: TX mode entered
   OP_END_TX = 0x05, // FPGA → SDR : end of TX burst, return to RX
-  OP_ACK_RX = 0x06, // SDR  → FPGA: RX mode resumed
-  OP_DATA = 0x10,   // either      : sample payload (len > 0)
+  OP_ACK_RX = 0x06,   // SDR  → FPGA: RX mode resumed
+  OP_NACK_TX = 0x07, // SDR  → FPGA: TX queued at hub, stay in RX until ACK_TX
+  OP_DATA = 0x10,    // either      : sample payload (len > 0)
   OP_PAUSE = 0x20,  // either      : stop sending DATA (buffer high-water)
   OP_RESUME = 0x21, // either      : resume sending DATA (buffer low-water)
 } opcode_t;
@@ -46,6 +47,8 @@ static inline const char *opcode_name(opcode_t op) {
     return "END_TX";
   case OP_ACK_RX:
     return "ACK_RX";
+  case OP_NACK_TX:
+    return "NACK_TX";
   case OP_DATA:
     return "DATA";
   case OP_PAUSE:
