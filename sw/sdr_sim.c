@@ -46,12 +46,35 @@ static int send_pkt(int fd, const char *label, const char *dir,
     return 0;
 }
 
+static bool known_opcode(uint8_t b) {
+    switch (b) {
+    case OP_READY: case OP_POLL: case OP_REQ_SLOT:
+    case OP_GRANT: case OP_DONE:  case OP_DATA:
+        return true;
+    }
+    return false;
+}
+
 static int recv_pkt(int fd, const char *label, const char *dir,
                     packet_t *pkt) {
-    uint8_t hdr[2];
-    if (read_all(fd, hdr, 2) < 0) return -1;
-    pkt->opcode = (opcode_t)hdr[0];
-    pkt->len    = hdr[1];
+    // Resync to a frame boundary: the byte stream has no delimiter, and on this
+    // sim's UART link the socket can connect mid-frame (pre-connect bytes are
+    // dropped). Skip bytes until a recognised opcode. During boot the FPGA only
+    // emits zero-payload READY frames, so this realigns within a byte or two;
+    // once aligned the (reliable) link stays aligned.
+    uint8_t op;
+    int skipped = 0;
+    do {
+        if (read_all(fd, &op, 1) < 0) return -1;
+        if (!known_opcode(op)) skipped++;
+    } while (!known_opcode(op));
+    if (skipped)
+        printf("%s [%s rx] resync: skipped %d byte(s)\n", label, dir, skipped);
+
+    uint8_t len;
+    if (read_all(fd, &len, 1) < 0) return -1;
+    pkt->opcode = (opcode_t)op;
+    pkt->len    = len;
     if (pkt->len > MAX_PAYLOAD_BYTES) {
         fprintf(stderr, "%s oversized packet len=%d\n", label, pkt->len);
         return -1;

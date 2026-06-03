@@ -2,20 +2,20 @@
 #include <stdint.h>
 #include <string.h>
 
-// Must match pkg_sdr_ctrl_protocol.sv
-#define MAX_PAYLOAD_BYTES 64
+// Must match pkg_sdr_ctrl_protocol.sv (BUFFER_SIZE).
+#define BUFFER_SIZE       64
+#define MAX_PAYLOAD_BYTES BUFFER_SIZE
 
 typedef enum __attribute__((packed)) {
-  OP_POLL = 0x01,   // FPGA → SDR : are you ready?
-  OP_READY = 0x02,  // SDR  → FPGA: ready, enter IDLE
-  OP_REQ_TX = 0x03, // FPGA → SDR : switch to TX mode
-  OP_ACK_TX = 0x04, // SDR  → FPGA: TX mode entered
-  OP_END_TX = 0x05, // FPGA → SDR : end of TX burst, return to RX
-  OP_ACK_RX = 0x06,   // SDR  → FPGA: RX mode resumed
-  OP_NACK_TX = 0x07, // SDR  → FPGA: TX queued at hub, stay in RX until ACK_TX
-  OP_DATA = 0x10,    // either      : sample payload (len > 0)
-  OP_PAUSE = 0x20,  // either      : stop sending DATA (buffer high-water)
-  OP_RESUME = 0x21, // either      : resume sending DATA (buffer low-water)
+  OP_READY    = 0x02,  // FPGA → SDR : one-shot at boot, "engine up, you may poll"
+  OP_POLL     = 0x01,  // SDR  → FPGA: TX buffer empty, one-buffer credit
+
+  // Hub-SDR sub-protocol (invisible to FPGA)
+  OP_REQ_SLOT = 0x08,  // SDR  → Hub : TX buffer non-empty, request slot
+  OP_GRANT    = 0x09,  // Hub  → SDR : slot granted, drain buffer
+  OP_DONE     = 0x0A,  // SDR  → Hub : buffer drained, slot released
+
+  OP_DATA     = 0x10,  // bidirectional: sample payload (len > 0)
 } opcode_t;
 
 // Wire frame: [ opcode (1B) | len (1B) | payload (len B) ]
@@ -35,26 +35,12 @@ static inline packet_t make_ctrl(opcode_t op) {
 
 static inline const char *opcode_name(opcode_t op) {
   switch (op) {
-  case OP_POLL:
-    return "POLL";
-  case OP_READY:
-    return "READY";
-  case OP_REQ_TX:
-    return "REQ_TX";
-  case OP_ACK_TX:
-    return "ACK_TX";
-  case OP_END_TX:
-    return "END_TX";
-  case OP_ACK_RX:
-    return "ACK_RX";
-  case OP_NACK_TX:
-    return "NACK_TX";
-  case OP_DATA:
-    return "DATA";
-  case OP_PAUSE:
-    return "PAUSE";
-  case OP_RESUME:
-    return "RESUME";
+  case OP_READY:    return "READY";
+  case OP_POLL:     return "POLL";
+  case OP_REQ_SLOT: return "REQ_SLOT";
+  case OP_GRANT:    return "GRANT";
+  case OP_DONE:     return "DONE";
+  case OP_DATA:     return "DATA";
   }
   return "?";
 }

@@ -11,7 +11,6 @@
 
 #define MAX_SDRS 16
 
-// Per-SDR connection: fd + a small read buffer for TCP fragmentation.
 typedef struct {
     int     fd;
     uint8_t rbuf[2 + MAX_PAYLOAD_BYTES];
@@ -28,8 +27,6 @@ static void q_push(int idx) { tx_queue[tx_q_tail++ % MAX_SDRS] = idx; }
 static int  q_pop(void)     { return tx_queue[tx_q_head++ % MAX_SDRS]; }
 static int  q_empty(void)   { return tx_q_head == tx_q_tail; }
 
-// --- I/O helpers ---
-
 static int send_pkt(int fd, const packet_t *pkt) {
     uint8_t buf[2 + MAX_PAYLOAD_BYTES];
     buf[0] = (uint8_t)pkt->opcode;
@@ -45,9 +42,6 @@ static int send_pkt(int fd, const packet_t *pkt) {
     return 0;
 }
 
-// Incrementally read bytes into the connection's buffer.
-// Returns 1 when a complete packet is ready in *out, 0 if more data needed,
-// -1 on connection error.
 static int try_read_pkt(sdr_conn_t *c, packet_t *out) {
     int needed = (c->rlen >= 2) ? (2 + c->rbuf[1]) : 2;
     ssize_t r = read(c->fd, c->rbuf + c->rlen, (size_t)(needed - c->rlen));
@@ -66,57 +60,53 @@ static int try_read_pkt(sdr_conn_t *c, packet_t *out) {
     return 1;
 }
 
-// --- TX mutex management ---
-
-static void grant_tx(int idx) {
+static void grant_slot(int idx) {
     active_tx = idx;
-    printf("[HUB] SDR%d granted TX\n", idx);
-    packet_t rsp = make_ctrl(OP_ACK_TX);
-    send_pkt(conns[idx].fd, &rsp);
+    printf("[HUB] SDR%d granted slot\n", idx);
+    packet_t g = make_ctrl(OP_GRANT);
+    send_pkt(conns[idx].fd, &g);
 }
 
-// --- Hub packet handler ---
-
 static void hub_handle(int from, const packet_t *pkt) {
-    printf("[HUB] SDR%d %-8s len=%d\n", from, opcode_name(pkt->opcode), pkt->len);
+    if (pkt->opcode == OP_DATA && pkt->len >= 4) {
+        uint32_t word;
+        memcpy(&word, pkt->payload, 4);
+        printf("[HUB] SDR%d %-8s len=%d  data=0x%08x (%u)\n",
+               from, opcode_name(pkt->opcode), pkt->len, word, word);
+    } else {
+        printf("[HUB] SDR%d %-8s len=%d\n", from, opcode_name(pkt->opcode), pkt->len);
+    }
 
     switch (pkt->opcode) {
 
-    case OP_REQ_TX:
+    case OP_REQ_SLOT:
         if (active_tx == -1) {
-            grant_tx(from);
+            grant_slot(from);
         } else {
-            printf("[HUB] SDR%d queued (SDR%d holds TX)\n", from, active_tx);
+            printf("[HUB] SDR%d queued (SDR%d holds slot)\n", from, active_tx);
             q_push(from);
         }
         break;
 
     case OP_DATA:
         if (active_tx != from) break;
-        // Broadcast to every other connected SDR.
         for (int j = 0; j < n_sdrs; j++) {
             if (j != from && conns[j].fd >= 0)
                 send_pkt(conns[j].fd, pkt);
         }
         break;
 
-    case OP_END_TX:
+    case OP_DONE:
         if (active_tx != from) break;
-        {
-            packet_t ack = make_ctrl(OP_ACK_RX);
-            send_pkt(conns[from].fd, &ack);
-            printf("[HUB] SDR%d TX done\n", from);
-        }
+        printf("[HUB] SDR%d slot done\n", from);
         active_tx = -1;
-        if (!q_empty()) grant_tx(q_pop());
+        if (!q_empty()) grant_slot(q_pop());
         break;
 
     default:
         break;
     }
 }
-
-// --- main ---
 
 int main(int argc, char **argv) {
     setvbuf(stdout, NULL, _IOLBF, 0);
@@ -129,8 +119,8 @@ int main(int argc, char **argv) {
     int port = atoi(argv[1]);
     n_sdrs   = atoi(argv[2]);
 
-    if (n_sdrs < 2 || n_sdrs > MAX_SDRS) {
-        fprintf(stderr, "num_sdrs must be 2..%d\n", MAX_SDRS);
+    if (n_sdrs < 1 || n_sdrs > MAX_SDRS) {
+        fprintf(stderr, "num_sdrs must be 1..%d\n", MAX_SDRS);
         return 1;
     }
 
@@ -179,7 +169,7 @@ int main(int argc, char **argv) {
                 conns[i].fd = -1;
                 if (active_tx == i) {
                     active_tx = -1;
-                    if (!q_empty()) grant_tx(q_pop());
+                    if (!q_empty()) grant_slot(q_pop());
                 }
             } else if (rc == 1) {
                 hub_handle(i, &pkt);

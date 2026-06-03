@@ -2,15 +2,16 @@
 #include <stdbool.h>
 #include "protocol.h"
 
-#define TX_BUF_CAPACITY  512
-#define TX_HIGH_WATER    384
-#define TX_LOW_WATER     128
+// Pull/credit protocol (see PROTOCOL_DESIGN.md §12).
+//
+// The SDR holds a single fixed TX buffer: EMPTY or OCCUPIED. When EMPTY it
+// polls the FPGA once (one-buffer credit) and waits. The FPGA replies with one
+// OP_DATA chunk that fills the buffer; the SDR then requests a hub slot, drains
+// the buffer over the air on GRANT, and polls again (pre-fill).
 
 typedef enum {
-    SDR_PENDING,   // awaiting POLL/READY handshake with FPGA
-    SDR_RX,        // idle; can receive DATA from hub, can request TX
-    SDR_WAIT_TX,   // sent REQ_TX to hub, waiting for hub's ACK_TX
-    SDR_TX,        // transmitting DATA from FPGA to hub
+    SDR_PENDING,  // awaiting OP_READY boot handshake
+    SDR_ACTIVE,   // operational; single TX buffer, poll-on-empty
 } sdr_state_t;
 
 typedef struct {
@@ -20,8 +21,9 @@ typedef struct {
 
 typedef struct {
     sdr_state_t   state;
-    int           tx_buf_used;
-    bool          paused;
+    packet_t      tx_buf;          // the single TX buffer (one FPGA chunk)
+    bool          buf_occupied;    // tx_buf holds data awaiting a hub slot
+    bool          slot_requested;  // REQ_SLOT sent, awaiting GRANT
     sdr_fsm_ops_t ops;
     void         *ops_ctx;
     const char   *label;

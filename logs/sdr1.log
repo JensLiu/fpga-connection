@@ -1,0 +1,3908 @@
+[SDR@12345] connecting to hub at 127.0.0.1:14000...
+[SDR@12345] hub link up
+[SDR@12345] [fpga rx] ?        len=1
+[SDR@12345] [fpga rx] POLL     len=0
+[SDR@12345] [fpga tx] READY    len=0
+[SDR@12345] PENDING -> ACTIVE
+[SDR@12345] [fpga rx] POLL     len=0
+[SDR@12345] [fpga tx] READY    len=0
+[SDR@12345] [fpga rx] POLL     len=0
+[SDR@12345] [fpga tx] READY    len=0
+[SDR@12345] [fpga rx] POLL     len=0
+[SDR@12345] [fpga tx] READY    len=0
+[SDR@12345] [fpga rx] POLL     len=0
+[SDR@12345] [fpga tx] READY    len=0
+[SDR@12345] [fpga rx] POLL     len=0
+[SDR@12345] [fpga tx] READY    len=0
+[SDR@12345] [fpga rx] POLL     len=0
+[SDR@12345] [fpga tx] READY    len=0
+[SDR@12345] [fpga rx] POLL     len=0
+[SDR@12345] [fpga tx] READY    len=0
+[SDR@12345] [fpga rx] POLL     len=0
+[SDR@12345] [fpga tx] READY    len=0
+[SDR@12345] [fpga rx] POLL     len=0
+[SDR@12345] [fpga tx] READY    len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 36 bytes (9 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 36 bytes (9 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 40 bytes (10 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 44 bytes (11 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 32 bytes (8 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 12 bytes (3 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 16 bytes (4 pkts)
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 20 bytes (5 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 24 bytes (6 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 28 bytes (7 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [hub rx] GRANT    len=0
+[SDR@12345] [hub tx] DATA     len=4
+[SDR@12345] [hub tx] DONE     len=0
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 4 bytes (1 pkts)
+[SDR@12345] [hub tx] REQ_SLOT len=0
+[SDR@12345] [fpga rx] DATA     len=4
+[SDR@12345] TX buf: 8 bytes (2 pkts)
+[SDR@12345] [hub rx] DATA     len=4
+[SDR@12345] [fpga tx] DATA     len=4
